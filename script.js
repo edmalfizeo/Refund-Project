@@ -1,3 +1,4 @@
+// Seleciona os elementos do formulário
 const form = document.querySelector("form")
 const amount = document.getElementById("amount")
 const expense = document.getElementById("expense")
@@ -39,5 +40,16 @@ form.onsubmit = (event) => {
         category_name: category.options[category.selectedIndex].text,
         amount: amount.value,
         created_at: new Date(),
+    }
+
+    // Chama a função que irá adicionar o item na lista
+    expenseAdd(newExpense)
+}
+
+function expenseAdd(newExpense) {
+    try {
+    } catch (error) {
+        alert("Não foi possível atualizar a lista de despesas.")
+        console.log(error)
     }
 }
