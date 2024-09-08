@@ -281,7 +281,9 @@ aside ul {
   aside {
     min-width: 100%;
   }
-
+  .logo {
+    margin-left: 2rem;
+  }
   main section {
     flex-direction: column;
     width: 100%;
@@ -301,6 +303,9 @@ aside ul {
 }
 
 @media (max-width: 620px) {
+  .logo {
+    margin-left: 2rem;
+  }
   .inputs-row {
     flex-direction: column;
   }
