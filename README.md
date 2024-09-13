@@ -9,7 +9,8 @@ A clean and efficient reimbursement request system built with **HTML**, **CSS**,
 - 📱 **Responsive Design**: Fully responsive, ensuring a great user experience on both desktop and mobile devices.
 
 ## 📸 Screenshot:
-![Refund Project](https://github.com/edmalfizeo/Refund-Project)
+![Captura de tela 2024-09-13 124240](https://github.com/user-attachments/assets/6c51d045-59e0-441f-afad-94f2e14383c7)
+
 
 ## 🛠 Technologies:
 - **HTML5** for form structure and layout.
